@@ -108,12 +108,20 @@ body{
     margin: 30px;
 }
 
-.col{
-    border: 1px solid #d2d4d6;
-    border-radius: 15px;
-    padding: 0;
+.classi{
+    width: 500px;
 }
 
 .classi img{
     width: 25px;
+}
+
+.small-icon{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.small-icon:hover i{
+    background-color: #165bba ;
+    color: #fff;
 }
