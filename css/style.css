@@ -5,8 +5,40 @@
 }
 
 /* HEADER */
+/* NAVBAR */
 
-form{
-    width: 500px;
+.logo img{
+    width: 60px;
+    height: 60px;
 }
 
+.form-group{
+    position: relative;
+    width: 70%;
+}
+
+.icon{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.navbar-collapse{
+    margin-left: 30px;
+}
+
+.fa-bell{
+    color: #ff8e00;
+}
+
+/* MAIN */
+/* SIDEBAR */
+.bar{
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+    color: #fff;
+    width: 100px;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+}
