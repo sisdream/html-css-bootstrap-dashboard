@@ -17,7 +17,7 @@
     width: 70%;
 }
 
-.icon{
+.form-icon{
     position: absolute;
     top: 7px;
     left: 10px;
@@ -37,8 +37,26 @@
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
     color: #fff;
-    width: 100px;
-    height: 900px;
+    width: 150px;
+    height: 600px;
     display: flex;
+    position: fixed;
+    left: 0;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.bar-icon{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 30px 20px;
+}
+
+.testo{
+    margin-left: 10px;
+}
+
+.icone{
+    margin: 10px 0;
 }
