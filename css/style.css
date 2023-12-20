@@ -89,7 +89,6 @@ body{
 .cont{
     background-color: #1b72e8;
     width:100%;
-    height: 100px;
 }
 
 .cont-span{
@@ -101,4 +100,20 @@ body{
 .cont-span:hover{
     background-color: #fff;
     color: #051e34;
+}
+
+/* COLONNE */
+
+.cont-col{
+    margin: 30px;
+}
+
+.col{
+    border: 1px solid #d2d4d6;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.classi img{
+    width: 25px;
 }
