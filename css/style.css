@@ -110,13 +110,7 @@ body{
 }
 
 .small-icon{
-    transition-duration: 0.4s;
     cursor: pointer;
-}
-
-.small-icon:hover i{
-    background-color: #1b72e8 ;
-    color: #fff;
 }
 
 /* GRAFICO */
