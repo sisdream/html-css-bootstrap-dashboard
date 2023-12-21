@@ -79,7 +79,7 @@
                 <i class="fa-solid fa-bell"></i>
               </a>
 
-              <ul class="dropdown-menu position-absolute end-0">
+              <ul class="dropdown-menu  dropdown-menu-end">
                 <li><a class="dropdown-item" href="#">Profilo</a></li>
                 <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                 <li><a class="dropdown-item" href="#">Logout</a></li>
@@ -386,6 +386,7 @@
             </table>
           </div>
         </div>
+
         <div class="col">
           <div class="container-fluid p-3">
             <div class="card">
@@ -411,14 +412,47 @@
             </div>
         </div>
         </div>
+
         <div class="col-8">
           <div class="card">
             <div class="card-header bg-body-secondary">
               <h2>F.A.Q.</h2>
-          </div>
+            </div>
+            
+            <div class="accordion" id="accordionExample">
+                <div class="">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Come aggiungere un nuovo studente?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body"> Clicca sul + in alto nella sezione blu </div>
+                  </div>
+                </div>
+                <div class="">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Come posso accedere alla informazioni del mio account?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">Clicca sull'icona della campanella </div>
+                    </div>
+                </div>
+                <div class="">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Posso usare questa dashboard da mobile?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Certo! Scaricala sul tuo dispositivo mobile</div>  
+                  </div>
+                </div>
+            </div>      
           </div>
         </div>
-        <div class="col"></div>
       </div>
     </section>
   </main>

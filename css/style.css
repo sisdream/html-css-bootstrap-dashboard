@@ -84,6 +84,11 @@ body{
     margin-right: 40px;
 }
 
+.dropdown-menu[data-bs-popper]{
+    right: 0;
+    left: none;
+}
+
 /* CONTENITORE */
 
 .cont{
@@ -122,6 +127,6 @@ body{
 }
 
 .small-icon:hover i{
-    background-color: #165bba ;
+    background-color: #1b72e8 ;
     color: #fff;
 }
