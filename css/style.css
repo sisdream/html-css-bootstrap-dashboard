@@ -92,13 +92,8 @@ body{
 .cont-span{
     background-color: #165bba;
     cursor: pointer;
-    transition-duration: 0.4s;
 }
 
-.cont-span:hover{
-    background-color: #fff;
-    color: #051e34;
-}
 
 /* COLONNE */
 
@@ -124,14 +119,14 @@ body{
     color: #fff;
 }
 
-/* TODO */
-
-#todo{
-    height: 400px;
-}
-
 /* GRAFICO */
 
 .list-group-item img{
     width: 100%;
 } 
+
+@media screen and (max-width: 992px) {
+    .small{
+        display: none;
+    }
+}
