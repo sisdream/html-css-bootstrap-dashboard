@@ -42,15 +42,15 @@
     <!-- NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand d-sm-block d-none" href="#">
+          <a class="navbar-brand d-none d-lg-block" href="#">
             <img src="./img/logo.svg" alt="logo">
           </a>
-          <a class="logo d-sm-none" href="#">
+          <a class="logo navbar-brand lg-none d-lg-none" href="#">
             <img src="./img/mobile-logo.png" alt="logo">
           </a>
        
           <div class="form-group flex-fill">
-            <form class="d-flex " role="search">
+            <form class="d-flex" role="search">
               <span class="form-icon">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </span>
@@ -58,7 +58,7 @@
             </form>
           </div>
   
-          <div class="collapse navbar-collapse" id="navbarScroll">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
             <ul class="navbar-nav dropdown-menu-end my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list"></i></a>
@@ -90,7 +90,7 @@
     </nav>
     <!-- CONTENITORE -->
     <section class="cont">
-        <div id="app" class="bg-primary pt-4 pb-4 d-flex justify-content-between">         
+        <div class="bg-primary pt-4 pb-4 d-flex justify-content-between flex-wrap">         
           <!--SINISTRA-->
           <div class="text-light ps-2">
             <div class="d-flex align-items-center gap-2">
@@ -148,7 +148,7 @@
                 <i class="fa-solid fa-plus"></i>
               </button>
             
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas offcanvas-end overflow-y-auto" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="p-3">
                   <h3>Inserisci un nuovo studente</h3>
                 </div>
@@ -240,7 +240,7 @@
     <section class="cont-col">
       <div class="row gap-3">
         <!-- STUDENTI -->
-        <div class="col-8">
+        <div class="col-12 col-md-6 col-lg-8">
           <div class="card">
             <table class="table">
               <div class="card-header bg-body-secondary">
@@ -249,8 +249,8 @@
               <thead>
                 <tr>
                   <td>Nome</td>
-                  <td class="small">Data inizio</td>
-                  <td class="small">ROI</td>
+                  <td class="small d-none d-lg-block">Data inizio</td>
+                  <td class="small d-none d-lg-block">ROI</td>
                   <td class="small">Stato</td>
                   <td class="small">Azioni</td>
                 </tr>
@@ -261,8 +261,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 75
                   </td>
-                  <td class="small">15 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">15 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-success">Done</span>
                   </td>
@@ -277,8 +277,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 76
                   </td>
-                  <td class="small">16 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">16 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-success">Done</span>
                   </td>
@@ -293,8 +293,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 77
                   </td>
-                  <td class="small">17 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">17 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-light text-bg-warning">Process</span>
                   </td>
@@ -309,8 +309,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 78
                   </td>
-                  <td class="small">18 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">18 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-success">Done</span>
                   </td>
@@ -325,8 +325,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 79
                   </td>
-                  <td class="small">19 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">19 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-danger">Falled</span>
                   </td>
@@ -341,8 +341,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 80
                   </td>
-                  <td class="small">20 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">20 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-success">Done</span>
                   </td>
@@ -357,8 +357,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 81
                   </td>
-                  <td class="small">21 Febbraio 2021</td>
-                  <td  class="small">20%</td>
+                  <td class="small d-none d-lg-block">21 Febbraio 2021</td>
+                  <td  class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-danger">Danger</span>
                   </td>
@@ -373,8 +373,8 @@
                     <img src="./img/class-avatar.jpg" alt="avatar">
                     Classe 82
                   </td>
-                  <td class="small">22 Febbraio 2021</td>
-                  <td class="small">20%</td>
+                  <td class="small d-none d-lg-block">22 Febbraio 2021</td>
+                  <td class="small d-none d-lg-block">20%</td>
                   <td class="small">
                     <span class="badge text-bg-success">Done</span>
                   </td>
@@ -388,7 +388,7 @@
           </div>
         </div>
         <!-- TODO -->
-        <div class="col">
+        <div id="todo" class="col-12 col-md-4 col-lg-3">
           <div class="container-fluid p-3">
             <div class="card">
                 <div class="card-header bg-body-secondary">
@@ -414,7 +414,7 @@
         </div>
         </div>
         <!-- F.A.Q. -->
-        <div class="col-8">
+        <div class="col-12 col-md-6 col-lg-8">
           <div class="card">
             <div class="card-header bg-body-secondary">
               <h2>F.A.Q.</h2>
@@ -455,13 +455,13 @@
           </div>
         </div>
         <!-- GRAFICO -->
-        <div id="grafico" class="col">
-          <div class="p-3 pt-2">
+        <div id="grafico" class="col-12 col-md-4 col-lg-3">
+          <div>
             <div class="card">
               <div class="card-body">
                 <ul class="list-group">
                   <li class="list-group-item">
-                    <img src="img/stats.jpeg" alt="img" style="width: 100%;">
+                    <img src="img/stats.jpeg" alt="img">
                   </li>
 
                   <li class="list-group-item">
